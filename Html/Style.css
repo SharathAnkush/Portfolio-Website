@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.logo{
+    margin-left: 4rem;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 6vh;
+     position: sticky;
+     top: 0%;
+     width: 100%;
+     background-color: rgb(0, 92, 153);
+}
+
+.ul-list{ 
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+
+a{
+    margin: 20px , auto;
+    text-decoration: none;
+    font-size:10px;
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+a:focus{
+    color:black;
+} 
+
+.homebg{
+               
+       background-color: rgb(3, 82, 75);
+         height: 100vh;
+}
+
+
+.homehead{
+    color: rgb(255, 251, 251);
+    font-size: xx-large;
+    letter-spacing:1px;
+    position: absolute;
+   
+    justify-content: center;
+    padding-top: 95px;
+    padding-left: 20px;
+}
+.port img{
+    height: 30%;
+
+}
+
+.colorchange{
+    animation: colorchangeSharath 1s infinite;
+}
+@keyframes colorchangeSharath {
+    0%{ color: red;}
+    25%{color: rgb(243, 10, 185);}
+    50%{color: rgb(0, 174, 255);}
+    100%{color: rgba(255, 255, 255, 0.795);}
+    
+}
+.svg{
+    position: absolute;
+    z-index:-2;
+    opacity: .6;
+    top: 23%;
+     right: 9%;
+    }
+
+.bike{
+    height: 80%;
+    position: absolute;
+    top: 30%;
+    right: 1px;
+    opacity:.5;
+
+}
+
+/****************** ABOUT PAGE CSS *********************/
+/****************** ABOUT PAGE CSS *********************/
+/****************** ABOUT PAGE CSS *********************/
+
+
+
+
+
+.aboutbg{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(4, 121, 111);;
+    /*background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%); */
+}
+
+
+.pp{
+
+    width:100px;
+    height:100px;
+    border-radius: 60%;
+}
+
+.inabout{
+    margin-top: 1rem;
+    color:white;
+    font-size: large;
+    padding-bottom: 1rem;
+   
+}
+.sharath{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2rem;
+    color: black;
+}
+
+.aboutcontent{
+    display: block;
+    display: inline;
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    margin:0, auto;
+}
+
+.edu{
+    color:white;
+    letter-spacing: 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+    padding: 10px;
+}
+
+.ed, img{
+    border-radius: 8%;
+}
+
+.edu h1 {
+   
+    font-size: 37px;
+    color:  rgb(38, 206, 248);
+}
+
+.skills{
+    color:white;
+    display: grid;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    border: dotted;
+    padding: 10px;
+  
+}
+
+.skills img{
+    padding-left: -30px;
+}
+
+.skills h1{
+    
+    font-size: 37px;
+    color:  rgb(38, 206, 248);
+}
+
+.intrested{
+    color:white;
+    display: grid;
+   letter-spacing: 1px;
+   align-items: center;
+    justify-content: center;
+    border: dotted;
+    padding: 10px;
+   
+}
+
+.intrested h1 {
+    font-size:37px;
+    color:rgb(38, 206, 248);
+}
+
+
+/*.edu:hover{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.skills:hover{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.card3:hover{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+.card4:hover{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+*/
+
+
+
+/****************** CONTACT PAGE CSS *****************/
+/****************** CONTACT PAGE CSS *****************/
+/****************** CONTACT PAGE CSS *****************/
+
+.logo{
+margin: auto;
+    
+}
+
+.conbg{
+    
+  background-color:  rgb(208, 228, 226);
+  margin: auto;
+}
+
+.connect{
+    text-align: center;
+    padding-top: 0re;
+}
+.social{
+    text-align: center;
+    font-size: x-large;
+    margin: 1rem;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+
+}
+
+form input,
+form label,
+form textarea {
+    display:block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(10, 0, 0);
+    
+}
+ 
+form input,
+form textarea {
+    margin: 0.1rem auto;
+    width: 50%;
+    border-radius: 6px;
+   border: 1px solid black;    
+
+}
+
+.submit{
+    background-color:black;
+    color:white;
+    border-radius: 11px;
+    border: none; 
+    padding: 0.5rem;
+    font-weight: solid;
+    margin-top: 0rem;
+    width: 60%;
+   
+}
+
+
+/***********************TABLE VIEW***************************/
+/***********************TABLE VIEW***************************/
+/***********************TABLE VIEW***************************/
+
+
+@media screen and (max-width: 1550px) {
+
+    .aboutcontent{
+        display:grid;
+        grid-template-columns: repeat(1,auto);
+        grid-gap: 2rem;
+        align-items: center;
+         margin-top: rem;
+        justify-content: center;
+    }
+
+    .aboutbg{
+           justify-content: center;
+           align-items: center;
+
+    }
+    .logo{
+        margin-left:6px ;
+    }
+      .edu{
+        align-items: center;
+        margin-top: 0;
+      }
+
+      .connect{
+        font-size:27px;
+        padding-top: 8px;
+    }
+
+    .social{
+        margin: 1.3rem 0rem ;
+    }
+
+    form{
+        text-align: center;
+        align-items: center;
+      align-items: center;
+      justify-content: center;
+    }
+    form input, form textarea {
+        margin: 1rem auto;
+        width: 50%;
+        text-align: center;
+      
+    }
+
+   .submit{
+        margin-top: 2rem;
+        width: 40%;
+   }
+   
+}
+
+
+
+/*********************** MOBILE VIEW ***************************/
+/*********************** MOBILE VIEW ***************************/
+/*********************** MOBILE VIEW ***************************/
+
+
+
+
+ /*@media screen and (min-width:360px){
+    .main-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top:0%;
+       width: 400px;
+       
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+
+      .homehead{
+          font-size: large;
+          margin-top: 5.2rem;
+      }
+
+    .port{
+         padding: 10%;
+         padding-top: 44%;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    
+
+    .aboutcontent{
+        display: grid;
+        grid-template-columns:repeat(1,auto);
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+
+   .conbg{
+    width: 90%;
+    }
+
+    .connect{
+        margin: 2rem ;
+        font-size: 30px;
+    
+    }
+
+    .social{
+        display: flex;  
+      display: block;
+        margin: 0rem 0rem;
+        margin-bottom: 2rem;
+    }
+   .social a{
+       margin: 0rem 1rem ;
+
+   }
+
+    form{
+        display: block;
+        text-align: center;
+        width: 60vh;
+       margin-left: 2rem;
+    }
+    
+   
+  form input, form textarea {
+        margin: 1.30rem ;
+        width: 65%;
+        margin-left: 5rem;
+    
+    }
+
+    .submit{
+        margin-top: 2rem;
+        margin-left: 7.2rem;   }
+    
+}
+
